@@ -9,19 +9,16 @@
   3. Phone number used throughout: +91 91999 12332  (search for tel:+919199912332)
 
   IMAGES
-  Brand assets (NB & Sons logo, pack label) are embedded in this
-  file - nothing to upload. The seven photographs load from Cloudinary:
+  Brand assets (NB & Sons logo, pack label, tiger emblem) are embedded in
+  this file. The six photographs are self-hosted in the "Public Folder"
+  directory next to this file (no external image hosting):
 
-    hero / terrace application  .../v1789725116/qhbdgu1rzdqih9b2snwd.jpg
-    damp wall                   .../v1789725130/cgoj2fm08xe0osbpgf0x.jpg
-    rain on coated roof         .../v1789725148/m9ui9nkybiddkd9iy3ml.jpg
-    crack bridging macro        .../v1789725171/rchveur44o8wekey13pt.jpg
-    cool roof / heat            .../v1789725185/fri65rgaif1u2k7zdecy.jpg
-    finished house              .../v1789725198/oql3cvwzhqi2cf6lqggn.jpg
-    brush on wall               .../v1789725218/tra7bml0wuml4mcnwevf.jpg
-
-  To self-host instead: download those seven files into an /img folder next to
-  this file and replace each https://res.cloudinary.com/... URL with img/name.jpg
+    hero-background.jpg          hero / terrace application
+    rising-damp-wall.jpg         damp wall
+    monsoon-rain-parapet.jpg     rain on coated roof
+    elastomeric-membrane-crack.jpg  crack bridging macro
+    cool-roof-terrace.jpg        cool roof / heat
+    brush-applying-coating.jpg   brush on wall
 -->
 <html lang="en">
 <head>
@@ -115,7 +112,7 @@ header .wrap{position:relative}
 .hero{min-height:clamp(600px,88vh,860px);display:flex;align-items:center;
   background:#04123f;color:#fff;overflow:hidden;padding:90px 0}
 .hero::before{content:"";position:absolute;inset:0;
-  background:url("https://res.cloudinary.com/dfcpixjqd/image/upload/f_auto,q_auto:good,w_1900/v1789725116/qhbdgu1rzdqih9b2snwd.jpg") center 42%/cover no-repeat;
+  background:url("Public%20Folder/hero-background.jpg") center 42%/cover no-repeat;
   transform:scale(1.04)}
 .hero::after{content:"";position:absolute;inset:0;
   background:linear-gradient(104deg,rgba(4,18,63,.95) 0%,rgba(7,26,110,.88) 42%,rgba(11,99,201,.42) 72%,rgba(31,172,251,.15) 100%),
@@ -249,7 +246,7 @@ header .wrap{position:relative}
 /* ---------- cta band ---------- */
 .cta{background:linear-gradient(120deg,var(--red) 0%,#8d0508 40%,var(--navy) 100%);color:#fff;text-align:center;overflow:hidden}
 .cta::before{content:"";position:absolute;inset:0;opacity:.28;
-  background:url("https://res.cloudinary.com/dfcpixjqd/image/upload/f_auto,q_auto:eco,w_1600/v1789725148/m9ui9nkybiddkd9iy3ml.jpg") center/cover;
+  background:url("Public%20Folder/monsoon-rain-parapet.jpg") center/cover;
   mix-blend-mode:overlay}
 .cta .wrap{position:relative;z-index:2}
 .cta h2{margin-bottom:16px}
@@ -406,7 +403,7 @@ footer ul{list-style:none;padding:0;margin:0;display:grid;gap:11px}
       </div>
       <div class="col-img reveal">
         <div class="shot">
-          <img src="https://res.cloudinary.com/dfcpixjqd/image/upload/f_auto,q_auto:good,w_900/v1789725130/cgoj2fm08xe0osbpgf0x.jpg" alt="Interior wall damaged by rising damp, peeling paint and salt efflorescence" loading="lazy">
+          <img src="Public%20Folder/rising-damp-wall.jpg" alt="Interior wall damaged by rising damp, peeling paint and salt efflorescence" loading="lazy">
           <div class="badge-float"><b>Before</b>Untreated wall</div>
         </div>
       </div>
@@ -451,7 +448,7 @@ footer ul{list-style:none;padding:0;margin:0;display:grid;gap:11px}
     </div>
     <div class="col-img reveal">
       <div class="shot">
-        <img src="https://res.cloudinary.com/dfcpixjqd/image/upload/f_auto,q_auto:good,w_900/v1789725185/fri65rgaif1u2k7zdecy.jpg" alt="Flat rooftop terrace finished with reflective cool-roof coating under strong sun" loading="lazy">
+        <img src="Public%20Folder/cool-roof-terrace.jpg" alt="Flat rooftop terrace finished with reflective cool-roof coating under strong sun" loading="lazy">
         <div class="badge-float"><b>&minus;12&deg;</b>Heat reduction</div>
       </div>
     </div>
@@ -470,7 +467,7 @@ footer ul{list-style:none;padding:0;margin:0;display:grid;gap:11px}
     </div>
     <div class="col-img reveal">
       <div class="shot">
-        <img src="https://res.cloudinary.com/dfcpixjqd/image/upload/f_auto,q_auto:good,w_900/v1789725148/m9ui9nkybiddkd9iy3ml.jpg" alt="Heavy monsoon rain running off a blue waterproof-coated parapet and roof edge" loading="lazy">
+        <img src="Public%20Folder/monsoon-rain-parapet.jpg" alt="Heavy monsoon rain running off a blue waterproof-coated parapet and roof edge" loading="lazy">
         <div class="badge-float"><b>15 yrs</b>Waterproofing</div>
       </div>
     </div>
@@ -489,7 +486,7 @@ footer ul{list-style:none;padding:0;margin:0;display:grid;gap:11px}
     </div>
     <div class="col-img reveal">
       <div class="shot">
-        <img src="https://res.cloudinary.com/dfcpixjqd/image/upload/f_auto,q_auto:good,w_900/v1789725218/tra7bml0wuml4mcnwevf.jpg" alt="Brush applying thick blue waterproofing coating onto a cement wall" loading="lazy">
+        <img src="Public%20Folder/brush-applying-coating.jpg" alt="Brush applying thick blue waterproofing coating onto a cement wall" loading="lazy">
         <div class="badge-float"><b>2 coats</b>Full seal</div>
       </div>
     </div>
@@ -508,7 +505,7 @@ footer ul{list-style:none;padding:0;margin:0;display:grid;gap:11px}
     </div>
     <div class="col-img reveal">
       <div class="shot">
-        <img src="https://res.cloudinary.com/dfcpixjqd/image/upload/f_auto,q_auto:good,w_900/v1789725171/rchveur44o8wekey13pt.jpg" alt="Close-up of a flexible blue elastomeric membrane stretching across a crack in concrete" loading="lazy">
+        <img src="Public%20Folder/elastomeric-membrane-crack.jpg" alt="Close-up of a flexible blue elastomeric membrane stretching across a crack in concrete" loading="lazy">
         <div class="badge-float"><b>2 mm</b>Crack bridging</div>
       </div>
     </div>
